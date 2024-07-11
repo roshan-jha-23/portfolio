@@ -1,0 +1,60 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "PhoneCase",
+      "slug": "phone-case",
+      "description": "Marketplace for your phone case. Select, customize, and get it delivered to your doorstep. Features a wide range of designs and customization options, providing a unique shopping experience. Leveraged modern web technologies to ensure a seamless user interface and secure transactions.",
+      "isFeatured": true,
+      "image": "/courses/guitar.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Youtube-Twitter",
+      "slug": "youtube-twitter",
+      "description": "The “Youtube-Twitter” app combines the functionalities of both platforms, allowing users to share and discuss videos and tweet their thoughts. Leveraged Cloudinary for uploading images and videos effortlessly. Using MongoDB for scalable data storage, bcrypt for password hashing, and Multer for smooth file handling. Front-end developed with Vite for a fast build process.",
+      "isFeatured": true,
+      "image": "/courses/piano.jpg"
+    },
+    {
+      "id": 3,
+      "title": "CoderStop",
+      "slug": "coder-stop",
+      "description": "The “CoderStop” app is a dynamic platform for coders built with Next.js and AcertinityUI, an open-source component library. It serves as a one-stop platform for coders globally, enabling interactions, friendships, and real-time chats. Users can track their rankings and see global coder statistics via integrated APIs from GitHub, Codeforces, and LeetCode. Utilizes MongoDB, Redis, and other modern tools for optimal performance.",
+      "isFeatured": true,
+      "image": "/courses/vocalist.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Whisper Wire",
+      "slug": "whisper-wire",
+      "description": "Whisper Wire is an innovative application made with Next.js that allows you to send anonymous messages to anyone via a link, keeping your identity secret. Utilizes NodeMailer for sending emails, Bcryptjs for password hashing, Zod for validation, and MongoDB for database management. Shadcn and Tailwind CSS ensure beautiful and responsive UI components.",
+      "isFeatured": true,
+      "image": "/courses/drumming.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Todo Local Storage",
+      "slug": "todo-local-storage",
+      "description": "Create, edit, delete, and save to-do items with local storage support. This app helps users manage their tasks efficiently. Features include task prioritization, deadline setting, and an intuitive user interface. Built with modern JavaScript frameworks for fast and reliable performance.",
+      "isFeatured": true,
+      "image": "/courses/jazz.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Anime Quotes",
+      "slug": "anime-quotes",
+      "description": "Write about your favorite anime characters and their quotes. This app provides a platform for anime enthusiasts to share and discover memorable quotes. Features a sleek design and user-friendly interface, allowing users to categorize and search for quotes easily.",
+      "isFeatured": true,
+      "image": "/courses/music-prod.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Songwriting Essentials",
+      "slug": "songwriting-essentials",
+      "description": "Learn the essentials of songwriting to express your musical creativity. This app offers comprehensive tutorials, tips, and resources for aspiring songwriters. Features include songwriting templates, a rhyme dictionary, and collaboration tools. Built with an engaging and interactive design to enhance the learning experience.",
+      "isFeatured": false,
+      "image": "/courses/song-writing.jpg"
+    }
+  ]
+}
