@@ -116,6 +116,7 @@ function Page() {
         <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mb-8 w-full px-4">
           {gitHubUser && (
             <div className="flex flex-col h-full w-full">
+              Github
               <Card
                 username={gitHubUser.username}
                 avatar={gitHubUser.avatar_url}
@@ -127,6 +128,7 @@ function Page() {
           )}
           {leetCodeUser && (
             <div className="flex flex-col h-full w-full">
+              Leetcode
               <Card1
                 username={leetCodeUser.name}
                 avatar={leetCodeUser.avatar}
@@ -137,6 +139,7 @@ function Page() {
           )}
           {cfUser && (
             <div className="flex flex-col h-full w-full">
+              CodeForce
               <CardForCF
                 handle={cfUser.handle}
                 firstName={cfUser.firstName}

@@ -1,0 +1,67 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "PhoneCase",
+      "slug": "phone-case",
+      "description": "Marketplace for your phone case. Select, customize, and get it delivered to your doorstep. Features a wide range of designs and customization options, providing a unique shopping experience. Leveraged modern web technologies to ensure a seamless user interface and secure transactions.",
+      "isFeatured": true,
+      "image": "/phone-case.png",
+      "liveurl": "https://phone-case-cobra.vercel.app/"
+    },
+    {
+      "id": 7,
+      "title": "Youtube-Twitter",
+      "slug": "youtube-twitter",
+      "description": "The “Youtube-Twitter” app combines the functionalities of both platforms, allowing users to share and discuss videos and tweet their thoughts. Leveraged Cloudinary for uploading images and videos effortlessly. Using MongoDB for scalable data storage, bcrypt for password hashing, and Multer for smooth file handling. Front-end developed with Vite for a fast build process.",
+      "isFeatured": true,
+      "image": "/youtube.png",
+      "liveurl": "https://youtube-twitter.vercel.app/"
+    },
+    {
+      "id": 3,
+      "title": "CoderStop",
+      "slug": "coder-stop",
+      "description": "The “CoderStop” app is a dynamic platform for coders built with Next.js and AcertinityUI, an open-source component library. It serves as a one-stop platform for coders globally, enabling interactions, friendships, and real-time chats. Users can track their rankings and see global coder statistics via integrated APIs from GitHub, Codeforces, and LeetCode. Utilizes MongoDB, Redis, and other modern tools for optimal performance.",
+      "isFeatured": true,
+      "image": "/coder-stop.png",
+      "liveurl": "https://coder-stop.vercel.app/"
+    },
+    {
+      "id": 4,
+      "title": "Whisper Wire",
+      "slug": "whisper-wire",
+      "description": "Whisper Wire is an innovative application made with Next.js that allows you to send anonymous messages to anyone via a link, keeping your identity secret. Utilizes NodeMailer for sending emails, Bcryptjs for password hashing, Zod for validation, and MongoDB for database management. Shadcn and Tailwind CSS ensure beautiful and responsive UI components.",
+      "isFeatured": true,
+      "image": "/whisper.png",
+      "liveurl": "https://whisper-wire.vercel.app/"
+    },
+    {
+      "id": 5,
+      "title": "Chat App",
+      "slug": "chat-app",
+      "description": "Allows you to interact with your friend It allows you to add friend ,create group and many more and also provide you an environment for semaless chat experince",
+      "isFeatured": true,
+      "image": "/chat.png",
+      "liveurl": "https://coder-stop-chat.vercel.app/dashboard"
+    },
+    {
+      "id": 6,
+      "title": "Anime Quotes",
+      "slug": "anime-quotes",
+      "description": "Write about your favorite anime characters and their quotes. This app provides a platform for anime enthusiasts to share and discover memorable quotes. Features a sleek design and user-friendly interface, allowing users to categorize and search for quotes easily.",
+      "isFeatured": true,
+      "image": "/anime.png",
+      "liveurl": "https://animequote-eight.vercel.app/"
+    },
+    {
+      "id": 2,
+      "title": "Music Academia",
+      "slug": "music-acedmia",
+      "description": "Learn the essentials of songwriting to express your musical creativity. This app offers comprehensive tutorials, tips, and resources for aspiring songwriters. Features include songwriting templates, a rhyme dictionary, and collaboration tools. Built with an engaging and interactive design to enhance the learning experience.",
+      "isFeatured": false,
+      "image": "/music.png",
+      "liveurl": "https://roshan-music-school.vercel.app/"
+    }
+  ]
+}
