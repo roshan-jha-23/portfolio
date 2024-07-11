@@ -14,6 +14,7 @@ interface CF {
   rating: number;
   avatar: string;
 }
+
 export function CardForCF({
   handle,
   firstName,

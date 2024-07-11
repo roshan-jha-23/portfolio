@@ -24,6 +24,7 @@ export function Card({ username, avatar, bio, followers, url }: CardProps) {
         >
           {username}
         </CardItem>
+      
         <CardItem
           as="p"
           translateZ="60"

@@ -28,8 +28,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.2]">
-        <header className="header-container text-center py-16">
-          <div className="flex items-center justify-center from text-white py-4  mt-5 px-6 rounded-lg shadow-lg space-x-6">
+        <header className="text-center py-16">
+          <div className="flex flex-col items-center justify-center text-white py-4 mt-5 px-6  rounded-lg shadow-lg space-y-6 sm:space-y-0 sm:space-x-6 sm:flex-row">
             <div className="w-32 h-32">
               <img
                 src="/my-pic.jpeg"
@@ -37,14 +37,23 @@ export default function Home() {
                 className="w-full h-full object-cover rounded-full shadow-md"
               />
             </div>
-            <h1 className="text-4xl font-bold">Roshan Kumar Jha</h1>
+            <div className="text-center sm:text-left">
+              <h1 className="text-4xl font-bold">Roshan Kumar Jha</h1>
+              <a
+                href="/roshan.pdf"
+                download
+                className="mt-2 inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out"
+              >
+                Download my CV
+              </a>
+            </div>
           </div>
         </header>
         <section className="section-container">
           <HeroSection />
           <WhyChooseMe />
           <FeaturedProjects />
-          <Footer/>
+          <Footer />
         </section>
       </main>
     </>
