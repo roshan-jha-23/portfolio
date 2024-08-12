@@ -34,7 +34,8 @@ export default function Home() {
               <img
                 src="/my-pic.jpeg"
                 alt="Roshan Kumar Jha's profile picture"
-                className="w-full h-full object-cover rounded-full shadow-md"
+                 className="w-full h-full object-cover rounded-full shadow-md select-none pointer-events-none"
+                 loading="lazy"
               />
             </div>
             <div className="text-center sm:text-left">
